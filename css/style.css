@@ -1,0 +1,105 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#nav{
+  position: fixed;
+  top:0;
+  right: 10%;
+  width: 416px;
+}
+
+.photo{
+  position: relative;
+  width: 680px;
+  height: 600px;
+  top: 128px;
+  left: 25%;
+  text-align: center;
+}
+
+.photo img{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #a29971;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.photo p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #FFF;
+  opacity: 0.6;
+}
+
+.photo hr{
+  width: 94%;
+}
+
+#myPhoto:hover{
+  border: 2px solid #948692;
+  transition:border;
+  transition-duration: 3s;
+}
+
+.express{
+  position: relative;
+  top: 150px;
+}
+
+.jingli_1, .jingli_2, .jingli_3, .jingli_4{
+  position: relative;
+  left: -2000px;
+}
+
+.wrap{
+  position: relative;
+  margin: 0 auto;
+  top: 20%;
+  width: 860px;
+  height: 410px;
+}
+
+.wrap .one, .two, .three, .four, .five, .six{
+  margin-top: 10px;
+  width: 274px;
+  height: 190px;
+  float: left;
+  margin-left: 10px;
+}
+
+.wrap .oneImege{
+  width: 100%;
+  height: 80%;
+  float: left;
+  border: 1px solid red;
+}
+
+.one, .two, .three, .four, .five, .six p{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.foot-container{
+  position: relative;
+  top: 130px;
+}
+.foot{
+  height: 380px;
+}
+
+.zwpj {
+  position: relative;
+  left: 2120px;
+  color: #0066FF;
+  font-size: 18px;
+}
+.pjnr{
+  position: relative;
+  left: 2120px;
+  font-size: 16px;
+}
